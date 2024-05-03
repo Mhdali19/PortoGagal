@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.kotakUtama {
+    background-color: darkblue;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.forImage {
+    width: 300px;
+    height: 300px;
+    background-image: url(./MhdAliminizw.jpg);
+    background-size: cover;
+    border: 5px solid rgb(0, 0, 195);
+    border-radius: 50px;
+}
+
+.forImage:active {
+    background-image: url(./Eazy.png);
+}
+
+.menuUtama {
+    width: 1000px;
+    height: 600px;
+    border: 6px solid white;
+    background-color: rgb(116, 186, 255);
+    border-radius: 30px;
+}
+
+.Opening {
+    font-size: 60px;
+    text-align: center;
+    line-height: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    display: block;    
+}
+
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding: 10px;
+    border-bottom: 5px solid white;
+}
+
+nav ul li {
+    font-size: 40px;
+    color: rgb(250, 243, 243);
+    border-right: 2px solid white;
+    padding-right: 50px;
+}
+
+nav ul li:first-child {
+    margin-left: 30px;
+}
+
+nav ul li:last-child {
+    border: 0;
+}
+
+/* About Me  */
+
+.aboutMe {
+   display: none;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    justify-content: center;
+}
+
+.aboutMe h1 {
+    color: whitesmoke;
+}
+
+.aboutMe p {
+    color: aliceblue;
+    font-size: 20px;
+    text-align: justify;
+    padding: 50px;
+}
+
+/* Projects  */
+
+.projects {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+
+.projects h1 {
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.projects img {
+    width: 300px;
+    height: 300px;
+    padding-top: 20px;
+}
+
+/* Contact */
+.contact {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+    display: none;
+}
+
+.buttonWhatsApp {
+    padding: 30px;
+    width: 500px;
+    height: 50px;
+    background-color: rgb(4, 255, 100);
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.buttonGmail  {
+    padding: 30px;
+    width: 500px;
+    height: 50px;
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: monospace;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+/*  */
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    padding: 50px;
+    display: none;
+}
